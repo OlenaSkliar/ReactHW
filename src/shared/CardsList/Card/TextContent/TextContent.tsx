@@ -7,7 +7,7 @@ export function TextContent() {
           <div className={styles.metaData}>
               <div className={styles.userLink}>
                   <img className={styles.avatar} src={Avatar} alt="avatar"/>
-                  <a href="#user-url" className={styles.username}>Дмитрий Гришин</a>
+                  <a href="ReactComponents/src/shared/CardsList/Card/TextContent#user-url" className={styles.username}>Дмитрий Гришин</a>
               </div>
               <span className={styles.createdAt}>
           <span className={styles.publishedLabel}>опубликовано</span>
@@ -15,7 +15,7 @@ export function TextContent() {
       </span>
           </div>
           <h2 className={styles.title}>
-              <a href="#post-url" className={styles.postLink}>Следует отметить, что новая модель организационной деятельности...</a>
+              <a href="ReactComponents/src/shared/CardsList/Card/TextContent#post-url" className={styles.postLink}>Следует отметить, что новая модель организационной деятельности...</a>
           </h2>
       </div>
   );

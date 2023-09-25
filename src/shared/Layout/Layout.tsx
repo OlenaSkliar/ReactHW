@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './layout.css';
 import {Header} from "../Header";
-import {Content} from "../../Content";
+import {Content} from "../Content";
 
 interface ILayoutProps{
   children?: React.ReactNode;
